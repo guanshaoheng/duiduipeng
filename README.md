@@ -1,4 +1,4 @@
-# duiduipeng
+# DuiDuiPeng
 Find the best strategy for the DuiDuiPeng Game.
 
 Definition:
