@@ -5,6 +5,7 @@
 #include <unordered_set>
 #include <thread>
 #include <mutex>
+#include <config.h>
 
 
 using u32 = unsigned int;
@@ -245,7 +246,16 @@ void show_usage(){
 }
 
 
+void show_version(){
+    fprintf(stdout, "===================\n");
+    fprintf(stdout, "DuiDuiPeng Version: %d.%d.%d\n\n", duiduipeng_VERSION_MAJOR, duiduipeng_VERSION_MINOR, duiduipeng_VERSION_PATCH);
+}
+
+
 int main(int argc, char* argv[]){
+
+    show_version();
+
     int index = 0;
     bool test_mode = false;
     u32 num_buy = 0;

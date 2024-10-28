@@ -1,0 +1,4 @@
+// the configured options and settings for duiduipeng
+#define duiduipeng_VERSION_MAJOR @duiduipeng_VERSION_MAJOR@
+#define duiduipeng_VERSION_MINOR @duiduipeng_VERSION_MINOR@
+#define duiduipeng_VERSION_PATCH @duiduipeng_VERSION_PATCH@
